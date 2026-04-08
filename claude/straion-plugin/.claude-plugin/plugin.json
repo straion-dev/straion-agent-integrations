@@ -1,0 +1,9 @@
+{
+  "name": "straion",
+  "version": "0.0.41",
+  "description": "Rules-driven development for Claude Code. Validate specs and tasks against project rules, break down features with automatic compliance checking, and ensure every implementation meets organizational standards.",
+  "author": {
+    "name": "Straion",
+    "email": "support@straion.com"
+  }
+}

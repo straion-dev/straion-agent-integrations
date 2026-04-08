@@ -1,0 +1,13 @@
+{
+  "name": "straion-claude-marketplace",
+  "owner": {
+    "name": "Straion"
+  },
+  "plugins": [
+    {
+      "name": "straion",
+      "source": "./straion-plugin",
+      "description": "Rules-driven development for Claude Code. Validate specs and tasks against project rules, break down features with automatic compliance checking, and ensure every implementation meets organizational standards."
+    }
+  ]
+}
