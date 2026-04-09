@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionEnd": [
+      {
+        "type": "command",
+        "bash": "node ~/.copilot/installed-plugins/_direct/straion-plugin/hooks/session-end.js",
+        "cwd": ".",
+        "env": {
+          "SCAN_MODE": "warn",
+          "SCAN_SCOPE": "diff"
+        },
+        "timeoutSec": 30
+      }
+    ]
+  }
+}
